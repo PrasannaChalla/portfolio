@@ -1,0 +1,6 @@
+ <% @users.map do |user| %>
+    <div style="background-color: #ececec; margin-top: 20px; padding: 10px; border-radius: 5px">
+        <div>Name - <%= user.first_name %> <%= user.last_name %></div>
+        <div>Age - <%= user.age %></div>
+    </div>
+<% end %> 
